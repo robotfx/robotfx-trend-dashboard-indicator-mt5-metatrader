@@ -1,0 +1,39 @@
+<div class="post-body post-content">
+<div class="speech-bubble">
+<img alt="Trend Dashboard Indicator is a MetaTrader 5 indicator that shows the trend directions based on three standard indicators: Stochastic oscillator, RSI (Relative Strength Index), and CCI (Commodity Channel Index)" border="0" data-original-height="1280" data-original-width="1280" height="100" loading="lazy" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjI3V0-0lKFEqou9zYgGFeajuY95Nv2Sn29i9_NxxdcueRHnop8LjCqP965X8Uyb-uTY3uVnBbmAIp99zrOCXSBC3gD1guw3Po5UpjW7LGHkgIxXTcJcOyyZCzTs_eqcdszfxkbiFd_89gGnm1ambBXHTTREnOqoviHQBCy51nlV77WWtswsddLy-UZKiiV/w640-h482-e90-rw/trading-chart.png" style="display: block; float: left; margin-right: 5px;" width="100"/>
+Trend Dashboard Indicator is a MetaTrader 5 indicator that shows the trend directions for nine different timeframes: M1, M5, M15, M30, H1, H4, D1, W1, and MN1. It uses three standard indicators to calculate the trend: Stochastic oscillator, RSI (Relative Strength Index), and CCI (Commodity Channel Index). You can see the trends across all relevant timeframes with this indicator, regardless of which timeframe you apply it to.
+</div>
+<div style="text-align: center;"><h3><a href="#" id="Functions" name="Functions" title="Trend Dashboard Functions">Trend Dashboard main functions</a></h3></div>
+<p>Trend Dashboard Indicator is a MetaTrader 5 indicator that shows the trend directions for nine different timeframes: M1, M5, M15, M30, H1, H4, D1, W1, and MN1. It uses three standard indicators to calculate the trend: Stochastic oscillator, RSI (Relative Strength Index), and CCI (Commodity Channel Index). You can see the trends across all relevant timeframes with this indicator, regardless of which timeframe you apply it to.</p>
+<p>Using this indicator the traders don’t need to attach the traditional RSI, CCI or Stochastic on the chart therefore clearing the chart and being able to better focus on the other (candles, price) signals. The possibility to enable alerts means that there is no need to monitor the continuously monitor the charts.</p>
+<div style="text-align: center;">
+<h3><a href="#" id="Examples" name="Examples" title="Trend Dashboard Examples">Trend Dashboard Chart examples</a></h3>
+</div>
+<div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjI3V0-0lKFEqou9zYgGFeajuY95Nv2Sn29i9_NxxdcueRHnop8LjCqP965X8Uyb-uTY3uVnBbmAIp99zrOCXSBC3gD1guw3Po5UpjW7LGHkgIxXTcJcOyyZCzTs_eqcdszfxkbiFd_89gGnm1ambBXHTTREnOqoviHQBCy51nlV77WWtswsddLy-UZKiiV/s1282/trading-chart.png" style="margin-left: 1em; margin-right: 1em;"><img alt="Trend Dashboard Indicator is a MetaTrader 5 indicator that shows the trend directions based on three standard indicators: Stochastic oscillator, RSI (Relative Strength Index), and CCI (Commodity Channel Index)" border="0" data-original-height="967" data-original-width="1282" height="482" loading="lazy" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjI3V0-0lKFEqou9zYgGFeajuY95Nv2Sn29i9_NxxdcueRHnop8LjCqP965X8Uyb-uTY3uVnBbmAIp99zrOCXSBC3gD1guw3Po5UpjW7LGHkgIxXTcJcOyyZCzTs_eqcdszfxkbiFd_89gGnm1ambBXHTTREnOqoviHQBCy51nlV77WWtswsddLy-UZKiiV/w640-h482-e90-rw/trading-chart.png" title="Trend Dashboard Indicator" width="640"/></a></div><br/>
+<div class="separator" style="clear: both; text-align: center;">
+<h3><a href="#" id="Settings" name="Settings" title="Trend Dashboard Settings">Trend Dashboard Settings</a></h3>
+</div>
+<p>– Choose signal candle (default = Previous): This parameter determines which candle’s indicator values to use for display and alerts.<br/>
+– Percent K (default = 8): This parameter sets the number of bars to calculate the %K line of the Stochastic indicator.<br/>
+– Percent D (default = 3): This parameter sets the number of bars to calculate the %D line of the Stochastic indicator.<br/>
+– Slowing (default = 3): This parameter controls the smoothing of the Stochastic indicator.<br/>
+– RSI fast (default = 14): This parameter sets the period for the fast RSI.<br/>
+– RSI slow(default = 70): This parameter sets the period for the slow RSI.<br/>
+– Enable (default = false/true): This parameter enables or disables the Trend Dashboard Indicator, which shows signals for a specified timeframe.<br/>
+– Sound (default = false): This parameter enables or disables the native MetaTrader popup alerts, which appear when signals converge for some timeframes.<br/>
+– Email (default = false): This parameter enables or disables the email alerts, which are sent when signals converge for some timeframes. You need to configure your email settings in MetaTrader via Tools-&gt;Options-&gt;Email.<br/>
+– Notifications (default = false): This parameter enables or disables the push notifications, which are sent when signals converge for some timeframes. You need to configure your notifications settings in MetaTrader via Tools-&gt;Options-&gt;Notifications.<br/>
+– Others: These parameters define the symbols and colors for the trend direction arrows.</p>
+<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzx4fN33C2X3j8wNY4dML4qL7OHpnayCbyKmyMVte3i-M1TQ2ohcvE0E5-BvTZjYMqzBpPyB1xKz-XnkoP_1EI_128Injy71sc0asnl66_pxknIhSLxKMJTPPXJPXnrtVbh7l3N9Qltpk5SyCxNHUz6b59mnjN8VUy3qMZBtWUe5QMmTNPmH3hHYxUESbO/s988/trend-dashboard-settings.png" style="display: block; padding: 1em 0px; text-align: center;"><img alt="Trend Dashboard (MT5 indicator) settings" border="0" data-original-height="988" data-original-width="806" height="640" loading="lazy" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzx4fN33C2X3j8wNY4dML4qL7OHpnayCbyKmyMVte3i-M1TQ2ohcvE0E5-BvTZjYMqzBpPyB1xKz-XnkoP_1EI_128Injy71sc0asnl66_pxknIhSLxKMJTPPXJPXnrtVbh7l3N9Qltpk5SyCxNHUz6b59mnjN8VUy3qMZBtWUe5QMmTNPmH3hHYxUESbO/w522-h640-e90-rw/trend-dashboard-settings.png" title="Trend Dashboard (MT5 indicator)" width="522"/></a></div>
+<div style="background-color: #f8f8f8; border: 1px solid rgb(0, 0, 0); padding: 10px 20px 0px;">
+<h4 style="font-weight: normal;">Download Trend Dashboard free</h4>
+<a href="https://drive.google.com/uc?export=download&amp;id=1xJWaY9bt5dCHU9XAlnSdcCaaDl2LQq2U" id="freedownload" name="freedownload" rel="noopener noreferrer nofollow" target="_blank" title="Free download">
+<div style="-ms-flex-align: center; -webkit-align-items: center; -webkit-box-align: center; align-items: center; background-color: #444444; border-radius: 4px; border: 1px solid rgb(255, 255, 255); color: #f0f0f0; display: flex; font-family: Roboto; font-size: 1.2em; justify-content: center; margin: 0px auto; padding: 14px 20px; text-align: center; width: 80%;"><svg height="24" style="margin-right: 10px;" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M13 13v5.585l1.828-1.828 1.415 1.415L12 22.414l-4.243-4.242 1.415-1.415L11 18.585V13h2zM12 2a7.001 7.001 0 0 1 6.954 6.194 5.5 5.5 0 0 1-.953 10.784L18 17a6 6 0 0 0-11.996-.225L6 17v1.978a5.5 5.5 0 0 1-.954-10.784A7 7 0 0 1 12 2z" fill="rgba(240,240,240,1)"></path></svg> Download a free version</div>
+</a>
+<em style="color: #4e4e4e; font-family: Roboto; font-size: 0.8em;"><svg height="12" viewbox="0 0 24 24" width="12" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-1-5h2v2h-2v-2zm0-8h2v6h-2V7z" fill="rgba(220,20,60,1)"></path></path></svg> fully functional but limited to trading on demo accounts</em>
+</div>
+<span id="theprice">27</span>
+
+
+
+</div>
